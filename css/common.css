@@ -35,14 +35,22 @@ main{
     max-width: 960px;
     margin: 0 auto;
     padding: 24px 20px 48px;
+    padding-top: 180px;
     background-color: #ffffff;
 }
 
+/* ヘッター */
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     background-color: #4169e1;
     color: #ffffff;
     padding: 32px 40px;
     text-align: center;
+    z-index: 1000;
 }
 
 header h1{
